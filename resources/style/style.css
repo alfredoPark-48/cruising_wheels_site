@@ -199,11 +199,16 @@ header {
 .contact-data {
 	background-color: rgba(0, 0, 0, 0.7);
 	padding: 1rem;
+	display: flex;
+	flex-direction: column;
 	margin: 1rem;
 	color: #fff;
 	float: left;
-	height: 400px;
+	height: 22rem;
 	width: 600px;
+}
+.contact-data div {
+	margin: 0.5rem;
 }
 .contact-data i {
 	color: #fff;
@@ -213,8 +218,8 @@ header {
 	outline: none;
 	color: #fff;
 	border: 2px solid rgba(240, 240, 240, 0.8);
-	padding: 0.5rem;
-	height: 150px;
+	position: static;
+	height: 90%;
 	width: 100%;
 	resize: none;
 }
@@ -236,12 +241,10 @@ header {
 .submit-btn {
 	background: none;
 	border: 2px solid rgba(240, 240, 240, 0.8);
-	padding: 0.2rem;
 	cursor: pointer;
 	color: rgba(240, 240, 240, 0.8);
 	float: right;
 	outline: none;
-	margin: 0.2rem;
 }
 .submit-btn:hover {
 	border-color: #fff;
@@ -316,13 +319,16 @@ header {
 	}
 	.contact {
 		background-position: center;
-		height: 54vh;
+		height: 31rem;
+		padding: 1rem;
 	}
 	.contact-data {
 		margin: 0 auto;
 		width: 100vh;
+		height: 100%;
+		padding: 1rem;
 	}
 	.footer {
-		height: 120px;
+		height: 10rem;
 	}
 }
