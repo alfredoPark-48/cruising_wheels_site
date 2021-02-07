@@ -1,0 +1,23 @@
+{
+	"name": "cw_site",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"deploy": "gh-pages -d cw_site"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alfredoPark-48/cruising_wheels_site.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/alfredoPark-48/cruising_wheels_site/issues"
+	},
+	"homepage": "https://alfredoPark-48.github.io/cruising_wheels_site",
+	"dependencies": {
+		"gh-pages": "^3.1.0"
+	}
+}
