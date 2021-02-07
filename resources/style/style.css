@@ -69,7 +69,7 @@ header {
 	display: table;
 	font-size: 1.2rem;
 	height: 800px;
-	background-image: url("/build/resources/images/banner_image.jpg");
+	background-image: url("https://www.wallpaperflare.com/static/299/128/978/triumph-bonneville-bobber-2018-4k-black-wallpaper.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 30vh 0;
@@ -188,9 +188,10 @@ header {
 /* Contact Section */
 
 .contact {
-	background-image: url("/build/resources/images/about_gps.jpg");
+	background-image: url("http://images.summitmedia-digital.com/topgear/images/2020/04/16/2020-rebel-500-gallery-main-1587010596.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	display: flex;
 	justify-content: left;
 	padding: 2rem 2rem;
