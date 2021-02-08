@@ -74,6 +74,7 @@ header {
 	background-size: cover;
 	padding: 30vh 0;
 	text-align: center;
+	width: 100%;
 }
 .main-banner h1 {
 	font-size: 3rem;
